@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: white;
+  padding: 20px 80px 0px 80px;
+}
+
+.navbar {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logoBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoBox .hypercity {
+  width: 150px;
+}
+
+.logoBox .Clogo {
+  width: 30px;
+}
+
+.navbar .searchBar {
+  width: 50%;
+  height: 50px;
+  border: 1px solid #a3adbb;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.searchBar .searchInput {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  padding: 0px 23px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+}
+
+.searchBar button {
+  background: #f7d117;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  width: 60px;
+  height: 50px;
+  border: 1px solid #a3adbb;
+  outline: none;
+  cursor: pointer;
+}
+
+.navbar .navSection {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  gap: 33px;
+}
+
+.navSection .loginBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.navSection .cartBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
