@@ -16,6 +16,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 46px;
 }
 
 .navbar .logoBox {
@@ -88,4 +89,49 @@ body {
   align-items: center;
   gap: 8px;
   cursor: pointer;
+}
+
+.hero-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  gap: 43px;
+  margin-bottom: 70px;
+}
+
+.hero-section .hero-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 70%;
+}
+
+.hero-feed img {
+  width: 100%;
+}
+
+.hero-section .hero-info {
+  width: 100%;
+  border-radius: 32px;
+  background: #fefae8;
+  padding: 24px 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-info .info-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.info-box img{
+  width: 32px;
 }
